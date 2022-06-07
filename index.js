@@ -59,7 +59,7 @@ client.on("messageCreate", (msg) => {
            
         //informar al auto que ha infrigido las normas y se ponga en contacto con los moderadores
         msg.author.send(`Usted ha sido muteado en el servidor ${msg.guild.name} por mandar un enlace
-        que va contra las normas del servidor, comunicate con su moderador del servidor para 
+        malicioso que va contra las normas del servidor, comunicate con su moderador del servidor para 
         quitarte el baneo, si pasan 24hrs perdera todos sus rangos y no podra escribir en el servidor hasta que
         un moderador le de sus roles nuevamente`);
         
