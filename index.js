@@ -25,14 +25,15 @@ client.on("messageCreate", (msg) => {
     //console.log(matches);
     const oper = require("./script.js")
 
-    let total = oper.execute(matches);
+    let total = oper.execute(toString( matches));
     
 
+    console.log("este es el total ");
+    console.log(total);
     //comprobacion si el mensaje tiene un enlace malicioso
     //if(msg.content.includes(""))
-    if (total=1)
+    if (total == 1)
     {
-
         //borrado del mensaje
         msg.delete();
 
